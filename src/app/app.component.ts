@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lp2-practica';
+  estado:boolean = true;
+
+  actualizarEstado(e:boolean){
+    this.estado=e;
+    alert(this.estado);
+  }
 }
